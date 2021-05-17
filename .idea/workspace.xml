@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7dca2eb1-b203-4bb5-aa11-9681f98d2f89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/CachedServiceLocator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/FactoryA1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/FactoryB1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/FactoryC1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/FactoryD1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/ImplementationA1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/ImplementationB1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/ImplementationC1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/ImplementationD1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/InterfaceA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/InterfaceB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/InterfaceC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/InterfaceD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/LocatorError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/ServiceLocator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator/SimpleServiceLocator.java" afterDir="false" />
+    <list default="true" id="7dca2eb1-b203-4bb5-aa11-9681f98d2f89" name="Default Changelist" comment="Primera versió feta">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,19 +50,6 @@
       <recent name="servicelocator" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -89,8 +58,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621240943545</updated>
-      <workItem from="1621240945084" duration="3749000" />
+      <workItem from="1621240945084" duration="3833000" />
+      <workItem from="1621248455138" duration="652000" />
     </task>
+    <task id="LOCAL-00001" summary="Primera versió feta">
+      <created>1621246690725</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621246690725</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,8 +84,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Primera versió feta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primera versió feta" />
   </component>
 </project>
