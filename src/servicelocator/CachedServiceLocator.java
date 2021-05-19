@@ -3,10 +3,10 @@ package servicelocator;
 import java.util.HashMap;
 
 public class CachedServiceLocator implements ServiceLocator{
-    private HashMap<String, Factory> serviceMap = new HashMap<>();
-    private HashMap<String, Boolean> usedService = new HashMap<>();
-    private HashMap<String, Object> createdObjects = new HashMap<>();
-    private HashMap<String, Object> constantMap = new HashMap<>();
+    private final HashMap<String, Factory> serviceMap = new HashMap<>();
+    private final HashMap<String, Boolean> usedService = new HashMap<>();
+    private final HashMap<String, Object> createdObjects = new HashMap<>();
+    private final HashMap<String, Object> constantMap = new HashMap<>();
 
     @Override
     public void setService(String name, Factory factory) throws LocatorError {

@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dca2eb1-b203-4bb5-aa11-9681f98d2f89" name="Default Changelist" comment="Primera versió feta">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator2/CachedServiceLocator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator2/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator2/FactoryA1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator2/FactoryB1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator2/FactoryC1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator2/FactoryD1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator2/LocatorError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator2/ServiceLocator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicelocator2/SimpleServiceLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servicelocator/CachedServiceLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicelocator/CachedServiceLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servicelocator/SimpleServiceLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicelocator/SimpleServiceLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servicelocator2/SimpleServiceLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicelocator2/SimpleServiceLocator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/servicelocator2/SimpleServiceLocator.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1selTRKZ4zSRCfxPcTVdyXAst4d" />
   <component name="ProjectLevelVcsManager">
@@ -64,6 +61,19 @@
       <recent name="servicelocator" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,6 +87,7 @@
       <workItem from="1621249739770" duration="12000" />
       <workItem from="1621343132623" duration="1143000" />
       <workItem from="1621344296854" duration="2163000" />
+      <workItem from="1621416332139" duration="3623000" />
     </task>
     <task id="LOCAL-00001" summary="Primera versió feta">
       <created>1621246690725</created>
