@@ -29,8 +29,7 @@ public class SimpleServiceLocator<T> implements ServiceLocator {
             return (T) constantMap.get(klass);
         } else if (serviceMap.containsKey(klass)) {
             return (T) serviceMap.get(klass).create(this);
-        } else {
-            return null;
         }
+        return null;
     }
 }
