@@ -71,19 +71,6 @@
       <recent name="servicelocator" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -98,6 +85,8 @@
       <workItem from="1621343132623" duration="1143000" />
       <workItem from="1621344296854" duration="2163000" />
       <workItem from="1621416332139" duration="4264000" />
+      <workItem from="1621588202280" duration="346000" />
+      <workItem from="1621589503119" duration="1389000" />
     </task>
     <task id="LOCAL-00001" summary="Primera versió feta">
       <created>1621246690725</created>
