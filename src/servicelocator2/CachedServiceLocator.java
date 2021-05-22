@@ -14,6 +14,8 @@ public class CachedServiceLocator implements ServiceLocator{
         if (!constantMap.containsKey(klass)) {
             serviceMap.put(klass, factory);
             usedService.put(klass, false);
+        } else {
+            throw new LocatorError();
         }
     }
 
@@ -22,6 +24,8 @@ public class CachedServiceLocator implements ServiceLocator{
     public <T> void setConstant(Class<T> klass, T value) throws LocatorError {
         if (!serviceMap.containsKey(klass)) {
             constantMap.put(klass, value);
+        } else {
+            throw new LocatorError();
         }
     }
 
@@ -36,7 +40,8 @@ public class CachedServiceLocator implements ServiceLocator{
                 usedService.put(klass, true);
             }
             return (T) createdObjects.get(klass);
+        } else {
+            throw new LocatorError();
         }
-        return null;
     }
 }

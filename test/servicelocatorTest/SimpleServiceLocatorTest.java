@@ -7,20 +7,12 @@ import servicelocator.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class SimpleServiceLocatorTest {
-    SimpleServiceLocator spsl = new SimpleServiceLocator();
+    ServiceLocator spsl = new SimpleServiceLocator();
 
     ImplementationD1 d1 = new ImplementationD1(1);
     ImplementationC1 c1 = new ImplementationC1("Un");
     ImplementationB1 b1 = new ImplementationB1(d1);
     ImplementationA1 a1 = new ImplementationA1(b1, c1);
-
-    @Test
-    public void setServiceTest() throws LocatorError {
-        Factory factory = new FactoryA1();
-        spsl.setService("FactoryA1", factory);
-
-        assertTrue(spsl.serviceMap.containsKey("FactoryA1"));
-    }
 
     @Test
     public void setServiceFailTest() throws LocatorError {
@@ -32,13 +24,6 @@ public class SimpleServiceLocatorTest {
         } catch (LocatorError le) {
             throw new LocatorError();
         }
-    }
-
-    @Test
-    public void setConstantTest() throws LocatorError {
-        spsl.setConstant("3000 patates", new Object());
-
-        assertTrue(spsl.constantMap.containsKey("3000 patates"));
     }
 
     @Test

@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dca2eb1-b203-4bb5-aa11-9681f98d2f89" name="Default Changelist" comment="Carpetes de test fetes">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/servicelocator/SimpleServiceLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicelocator/SimpleServiceLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servicelocator2/CachedServiceLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicelocator2/CachedServiceLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servicelocator2/SimpleServiceLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicelocator2/SimpleServiceLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/servicelocator2Test/CachedServiceLocatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/servicelocator2Test/CachedServiceLocatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/servicelocator2Test/SimpleServiceLocatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/servicelocator2Test/SimpleServiceLocatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/servicelocatorTest/CachedServiceLocatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/servicelocatorTest/CachedServiceLocatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/servicelocatorTest/SimpleServiceLocatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/servicelocatorTest/SimpleServiceLocatorTest.java" afterDir="false" />
     </list>
@@ -75,13 +77,30 @@
       <recent name="servicelocator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CachedServiceLocatorTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CachedServiceLocatorTest.simpleCreation">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CachedServiceLocatorTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercici de disseny" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="servicelocator2Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="servicelocator2Test" />
+      <option name="MAIN_CLASS_NAME" value="servicelocator2Test.CachedServiceLocatorTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,66 +121,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleServiceLocatorTest.getObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CachedServiceLocatorTest.simpleCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercici de disseny" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="servicelocatorTest.*" />
+          <option name="PATTERN" value="servicelocator2Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="servicelocatorTest" />
-      <option name="MAIN_CLASS_NAME" value="servicelocatorTest.SimpleServiceLocatorTest" />
-      <option name="METHOD_NAME" value="getObject" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleServiceLocatorTest.setConstantFailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exercici de disseny" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="servicelocatorTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="servicelocatorTest" />
-      <option name="MAIN_CLASS_NAME" value="servicelocatorTest.SimpleServiceLocatorTest" />
-      <option name="METHOD_NAME" value="setConstantFailTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleServiceLocatorTest.setConstantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exercici de disseny" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="servicelocatorTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="servicelocatorTest" />
-      <option name="MAIN_CLASS_NAME" value="servicelocatorTest.SimpleServiceLocatorTest" />
-      <option name="METHOD_NAME" value="setConstantTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleServiceLocatorTest.simpleCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Exercici de disseny" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="servicelocatorTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="servicelocatorTest" />
-      <option name="MAIN_CLASS_NAME" value="servicelocatorTest.SimpleServiceLocatorTest" />
+      <option name="PACKAGE_NAME" value="servicelocator2Test" />
+      <option name="MAIN_CLASS_NAME" value="servicelocator2Test.CachedServiceLocatorTest" />
       <option name="METHOD_NAME" value="simpleCreation" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleServiceLocatorTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercici de disseny" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="servicelocator2Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="servicelocator2Test" />
+      <option name="MAIN_CLASS_NAME" value="servicelocator2Test.SimpleServiceLocatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleServiceLocatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercici de disseny" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="servicelocatorTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="servicelocatorTest" />
+      <option name="MAIN_CLASS_NAME" value="servicelocatorTest.SimpleServiceLocatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -178,19 +179,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Test" />
-      <item itemvalue="JUnit.SimpleServiceLocatorTest.setConstantTest" />
-      <item itemvalue="JUnit.SimpleServiceLocatorTest.setConstantFailTest" />
-      <item itemvalue="JUnit.SimpleServiceLocatorTest.getObject" />
-      <item itemvalue="JUnit.SimpleServiceLocatorTest.simpleCreation" />
       <item itemvalue="JUnit.CachedServiceLocatorTest" />
+      <item itemvalue="JUnit.SimpleServiceLocatorTest" />
+      <item itemvalue="JUnit.SimpleServiceLocatorTest (1)" />
+      <item itemvalue="JUnit.CachedServiceLocatorTest (1)" />
+      <item itemvalue="JUnit.CachedServiceLocatorTest.simpleCreation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CachedServiceLocatorTest.simpleCreation" />
+        <item itemvalue="JUnit.CachedServiceLocatorTest (1)" />
+        <item itemvalue="JUnit.SimpleServiceLocatorTest (1)" />
         <item itemvalue="JUnit.CachedServiceLocatorTest" />
-        <item itemvalue="JUnit.SimpleServiceLocatorTest.simpleCreation" />
-        <item itemvalue="JUnit.SimpleServiceLocatorTest.getObject" />
-        <item itemvalue="JUnit.SimpleServiceLocatorTest.setConstantFailTest" />
-        <item itemvalue="JUnit.SimpleServiceLocatorTest.setConstantTest" />
+        <item itemvalue="JUnit.SimpleServiceLocatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +211,8 @@
       <workItem from="1621416332139" duration="4264000" />
       <workItem from="1621588202280" duration="346000" />
       <workItem from="1621589503119" duration="1389000" />
-      <workItem from="1621680029985" duration="2257000" />
+      <workItem from="1621680029985" duration="2283000" />
+      <workItem from="1621693210718" duration="2370000" />
     </task>
     <task id="LOCAL-00001" summary="Primera versió feta">
       <created>1621246690725</created>

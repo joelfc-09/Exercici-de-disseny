@@ -11,6 +11,8 @@ public class SimpleServiceLocator<T> implements ServiceLocator {
     public <T> void setService(Class<T> klass, Factory<T> factory) throws LocatorError {
         if (!constantMap.containsKey(klass)) {
             serviceMap.put(klass, factory);
+        } else {
+            throw new LocatorError();
         }
     }
 
@@ -19,6 +21,8 @@ public class SimpleServiceLocator<T> implements ServiceLocator {
     public <T> void setConstant(Class<T> klass, T value) throws LocatorError {
         if (!serviceMap.containsKey(klass)) {
             constantMap.put(klass, value);
+        } else {
+            throw new LocatorError();
         }
     }
 
@@ -29,7 +33,8 @@ public class SimpleServiceLocator<T> implements ServiceLocator {
             return (T) constantMap.get(klass);
         } else if (serviceMap.containsKey(klass)) {
             return (T) serviceMap.get(klass).create(this);
+        } else {
+            throw new LocatorError();
         }
-        return null;
     }
 }
