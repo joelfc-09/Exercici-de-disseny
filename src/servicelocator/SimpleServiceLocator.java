@@ -3,8 +3,8 @@ package servicelocator;
 import java.util.HashMap;
 
 public class SimpleServiceLocator implements ServiceLocator {
-    private final HashMap<String, Factory> serviceMap = new HashMap<>();
-    private final HashMap<String, Object> constantMap = new HashMap<>();
+    public final HashMap<String, Factory> serviceMap = new HashMap<>();
+    public final HashMap<String, Object> constantMap = new HashMap<>();
 
     @Override
     public void setService(String name, Factory factory) throws LocatorError {
