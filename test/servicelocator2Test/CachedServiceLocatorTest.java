@@ -61,10 +61,10 @@ public class CachedServiceLocatorTest {
 
     @Test
     public void simpleCreation() throws LocatorError {
-        servicelocator2.Factory<InterfaceD> factory = new servicelocator2.FactoryD1();
-        chsl.setService(InterfaceD.class, factory);
-        chsl.setConstant(int.class, 1);
+        servicelocator2.Factory<InterfaceB> factory = new servicelocator2.FactoryB1();
+        chsl.setService(InterfaceB.class, factory);
+        chsl.setConstant(InterfaceD.class, d1);
 
-        assertNotEquals(chsl.getObject(InterfaceD.class).hashCode(), chsl.getObject(InterfaceD.class).hashCode());
+        assertEquals(chsl.getObject(InterfaceD.class).hashCode(), chsl.getObject(InterfaceD.class).hashCode());
     }
 }
