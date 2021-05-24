@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dca2eb1-b203-4bb5-aa11-9681f98d2f89" name="Default Changelist" comment="Tests fets (menys un error)">
+      <change afterPath="$PROJECT_DIR$/.~lock.Exercici de disseny - Informe.docx#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercici de disseny - Informe.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercici de disseny/servicelocator2/CachedServiceLocator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercici de disseny/servicelocator2/CachedServiceLocator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercici de disseny/servicelocator2/SimpleServiceLocator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercici de disseny/servicelocator2/SimpleServiceLocator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Exercici de disseny/servicelocator2Test/CachedServiceLocatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Exercici de disseny/servicelocator2Test/CachedServiceLocatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Exercici de disseny/servicelocator2Test/SimpleServiceLocatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Exercici de disseny/servicelocator2Test/SimpleServiceLocatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Exercici de disseny/servicelocatorTest/CachedServiceLocatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Exercici de disseny/servicelocatorTest/CachedServiceLocatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Exercici de disseny/servicelocatorTest/SimpleServiceLocatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Exercici de disseny/servicelocatorTest/SimpleServiceLocatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/servicelocator2Test/CachedServiceLocatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/servicelocator2Test/CachedServiceLocatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,17 +74,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CachedServiceLocatorTest.simpleCreation">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CachedServiceLocatorTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Exercici de disseny" />
       <extension name="coverage">
@@ -212,6 +196,8 @@
       <workItem from="1621589503119" duration="1389000" />
       <workItem from="1621680029985" duration="2283000" />
       <workItem from="1621693210718" duration="2837000" />
+      <workItem from="1621696080604" duration="115000" />
+      <workItem from="1621782645233" duration="1711000" />
     </task>
     <task id="LOCAL-00001" summary="Primera versió feta">
       <created>1621246690725</created>
