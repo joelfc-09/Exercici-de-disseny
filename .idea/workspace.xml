@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dca2eb1-b203-4bb5-aa11-9681f98d2f89" name="Default Changelist" comment="Tests fets (menys un error)">
-      <change afterPath="$PROJECT_DIR$/.~lock.Exercici de disseny - Informe.docx#" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercici de disseny - Informe.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,6 +196,9 @@
       <workItem from="1621693210718" duration="2837000" />
       <workItem from="1621696080604" duration="115000" />
       <workItem from="1621782645233" duration="1711000" />
+      <workItem from="1621936516389" duration="3000" />
+      <workItem from="1622012599307" duration="257000" />
+      <workItem from="1622470777673" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="Primera versió feta">
       <created>1621246690725</created>
